@@ -151,6 +151,6 @@ open class MinecraftRelay(private val listener: MinecraftRelayListener,
             .gameType("Survival")
             .nintendoLimited(false)
             .version(GameSession.RECOMMENDED_VERSION)
-            .protocolVersion(Bedrock_v567.CODEC.protocolVersion)
+            .protocolVersion(Bedrock_v649.CODEC.protocolVersion)
     }
 }
